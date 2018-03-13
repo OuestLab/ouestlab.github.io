@@ -2,8 +2,8 @@
 title:              OuestLab Portfolio 
 email:              email@sample.com
 description:        "Portfolio template for OuestLab"
-url:                "https://ouestlab.github.io"
-baseurl:            "/template/"
+url:                "https://ouestlab.github.io/template"
+baseurl:            ""
 
 footer-links:
   github: OuestLab
