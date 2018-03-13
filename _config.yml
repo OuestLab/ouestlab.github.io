@@ -2,7 +2,7 @@
 title:              OuestLab Portfolio 
 email:              email@sample.com
 description:        "Portfolio template for OuestLab"
-url:                "https://ouestlab.github.io/template"
+url:                "https://ouestlab.github.io"
 baseurl:            ""
 
 footer-links:
@@ -16,8 +16,3 @@ highlighter:        rouge
 markdown:           kramdown
 permalink:          pretty
 
-# Collection definitions and settings
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
