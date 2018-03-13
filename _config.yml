@@ -1,0 +1,26 @@
+# Site settings
+title:              OuestLab-Portfolio 
+email:              email@sample.com
+description:        "Portfolio template for OuestLab" > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+url:                "https://ouestlab.github.io"
+baseurl:            " "
+
+footer-links:
+  github: OuestLab
+# File structure settings
+image_path:         /public/images
+
+github_username:  OuestLab
+# Build settings
+markdown:           kramdown
+permalink:          pretty
+
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

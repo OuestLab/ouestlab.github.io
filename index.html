@@ -1,0 +1,26 @@
+---
+layout: main
+title: Portfolio
+---
+
+<main id="portfolio">
+	<h1 class="page-header">Selected Examples</h1>
+	<section>
+		<ul id="portfolio-gallery">
+			{% for project in site.projects %}
+				<li>
+				<p>	
+					<a href="{{ site.baseurl }}{{ project.url }}">
+						<img src="{{ site.baseurl }}/{{ site.image_path }}/{{ project.image }}">
+						<h2>{{ project.title }}</h2>
+					</a>
+				</p>
+				<br>
+				<p><a class="btn" data-popup-open="popup-1" href="#">View Projects</a>
+				</br>
+				</li>
+			{% endfor %}
+		</ul>
+	
+	</section>
+</main>
